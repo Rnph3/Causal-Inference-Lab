@@ -1,0 +1,25 @@
+test_aipw_recovers_observed (test_causal.TestCausal.test_aipw_recovers_observed) ... ok
+test_expected_outcome_diff (test_causal.TestCausal.test_expected_outcome_diff) ... ok
+test_hidden_confounder_not_magically_removed (test_causal.TestCausal.test_hidden_confounder_not_magically_removed) ... ok
+test_invalid_clip (test_causal.TestCausal.test_invalid_clip) ... ok
+test_invalid_folds (test_causal.TestCausal.test_invalid_folds) ... ok
+test_invalid_mode (test_causal.TestCausal.test_invalid_mode) ... ok
+test_invalid_treatment (test_causal.TestCausal.test_invalid_treatment) ... ok
+test_misspecified_propensity_bounds (test_causal.TestCausal.test_misspecified_propensity_bounds) ... ok
+test_naive_bias_observed (test_causal.TestCausal.test_naive_bias_observed) ... ok
+test_nuisance_folds_all_used (test_causal.TestCausal.test_nuisance_folds_all_used) ... ok
+test_nuisance_shape (test_causal.TestCausal.test_nuisance_shape) ... ok
+test_perfect_outcomes_stable_for_wrong_propensity (test_causal.TestCausal.test_perfect_outcomes_stable_for_wrong_propensity) ... ok
+test_propensity_clipping (test_causal.TestCausal.test_propensity_clipping) ... ok
+test_randomized_propensity (test_causal.TestCausal.test_randomized_propensity) ... ok
+test_repeatability (test_causal.TestCausal.test_repeatability) ... ok
+test_result_fields (test_causal.TestCausal.test_result_fields) ... ok
+test_shape_mismatch (test_causal.TestCausal.test_shape_mismatch) ... ok
+test_small_n (test_causal.TestCausal.test_small_n) ... ok
+test_true_ate_known (test_causal.TestCausal.test_true_ate_known) ... ok
+test_true_propensity_range (test_causal.TestCausal.test_true_propensity_range) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.129s
+
+OK

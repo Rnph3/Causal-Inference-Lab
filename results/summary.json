@@ -1,0 +1,41 @@
+{
+  "scope": "synthetic data with known oracle causal effect, no real-world causal identification",
+  "n_per_run": 1400,
+  "seeds_per_scenario": 18,
+  "folds": 3,
+  "scenarios": {
+    "randomized": {
+      "mean_sample_true_ate": 1.79839,
+      "mean_naive_estimate": 1.81065,
+      "mean_aipw_estimate": 1.78898,
+      "naive_bias": 0.01226,
+      "aipw_bias": -0.00942,
+      "naive_rmse": 0.10159,
+      "aipw_rmse": 0.04813,
+      "aipw_interval_coverage_fraction": 0.94444,
+      "mean_fraction_propensity_clipped": 0.0
+    },
+    "observed": {
+      "mean_sample_true_ate": 1.79839,
+      "mean_naive_estimate": 3.75019,
+      "mean_aipw_estimate": 1.82237,
+      "naive_bias": 1.95179,
+      "aipw_bias": 0.02398,
+      "naive_rmse": 1.95611,
+      "aipw_rmse": 0.07043,
+      "aipw_interval_coverage_fraction": 0.94444,
+      "mean_fraction_propensity_clipped": 0.03762
+    },
+    "hidden": {
+      "mean_sample_true_ate": 1.79839,
+      "mean_naive_estimate": 5.13446,
+      "mean_aipw_estimate": 3.92773,
+      "naive_bias": 3.33607,
+      "aipw_bias": 2.12933,
+      "naive_rmse": 3.33802,
+      "aipw_rmse": 2.13187,
+      "aipw_interval_coverage_fraction": 0,
+      "mean_fraction_propensity_clipped": 0.00563
+    }
+  }
+}
